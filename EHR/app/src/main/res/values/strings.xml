@@ -1,0 +1,40 @@
+<resources>
+    <string name="hello">EHR</string>
+    <string name="app_name">EHR</string>
+    <string name="Doctor">Doctor</string>
+    <string name="Patient">Patient</string>
+    <string name="action_sign_in">Sign in</string>
+    //p_dashboard mate strings****************************************************************
+    <string name="Prescription">My Prescription</string>
+    <string name="mydoctor">My Doctor</string>
+    <string name="family">My Family</string>
+    <string name="pharmacies">My Pharmacies</string>
+    <string name="QR">My QR Code</string>
+    <string name="documents">My Documents</string>
+    //p_dashboard nu puru*********************************************************************
+
+    <string name="Title">Electronic Health Records</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="get_help_signing_in">Get help signing in.</string>
+    <string name="forgot_your_login_details">Forgot your login details ?</string>
+    <string name="password">Password</string>
+    <string name="title_activity_p_navigation">p_navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+    <string name="username">Username</string>
+</resources>

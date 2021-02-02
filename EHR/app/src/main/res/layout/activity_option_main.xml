@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/radial_gradient_bkg"
+    tools:context="com.example.android.ehr.OptionMain">
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="95dp"
+            android:text="@string/Title"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"/>
+
+       <!-- <Button
+            android:id="@+id/docid"
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="85dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="@string/Doctor"
+            tools:ignore="OnClick" />-->
+
+    <Button
+        android:id="@+id/patid"
+        style="?android:textAppearanceSmall"
+        android:layout_width="143dp"
+        android:layout_height="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
+        android:text="@string/Patient"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

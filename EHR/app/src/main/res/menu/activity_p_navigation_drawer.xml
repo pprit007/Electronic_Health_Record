@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/demographics"
+            android:icon="@drawable/demog"
+            android:title="My Demographics" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:title="Medical History" />
+        <item
+            android:id="@+id/allergies"
+            android:icon="@drawable/allergies"
+            android:title="allergies" />
+        <item
+            android:id="@+id/medication"
+            android:icon="@drawable/medication"
+            android:title="Medication" />
+        <item
+            android:id="@+id/radiology"
+            android:icon="@drawable/radiology"
+            android:title="Radiology Images" />
+
+        <item
+            android:id="@+id/labtest"
+            android:icon="@drawable/labtest"
+            android:title="Lab Test Result" />
+
+        <item
+            android:id="@+id/QR"
+            android:icon="@drawable/qr"
+            android:title="My QR Code" />
+        <item
+            android:id="@+id/changepassword"
+            android:icon="@drawable/qr"
+            android:title="Change Password" />
+
+
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Tools" />
+        </menu>
+    </item>-->
+
+</menu>
